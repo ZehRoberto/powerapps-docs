@@ -25,6 +25,8 @@ With Power Apps component framework, you can create your own code components to 
 
 3. Code components should not use the HTML web storage objects, like `window.localStorage` and `window.sessionStorage`, to store data. Data stored locally on the user's browser or mobile client is not secure and not guaranteed to be available reliably.
 
+4. Code components doesn't work properly inside gallery controls from canvas apps (the control is showed only for the first record from any data source).
+
 ## Related topics
 
 [Power Apps component framework API reference](reference/index.md)<br/>
